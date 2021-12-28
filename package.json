@@ -1,0 +1,21 @@
+{
+  "name": "helloworldsnowpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/react-dom": "^17.0.11",
+    "snowpack": "^3.8.8"
+  },
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aishwarya",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
