@@ -1,6 +1,6 @@
-// my-first-snowpack/index.js
 import React from "react";
 import ReactDOM from "react-dom";
-import HelloWorld from "./HelloWorld";
+import App from "./src/App";
+import "./src/App.css";
 
-ReactDOM.render(<HelloWorld />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
